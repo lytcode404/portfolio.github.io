@@ -1,0 +1,230 @@
+@media (max-width: 1000px) {
+  .technologies .card-container {
+    padding: 22px 0px;
+  }
+  .home {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 962px) {
+  .home .img img {
+    top: 138px;
+    height: 401px;
+  }
+  .about .about-img {
+    width: 441px;
+  }
+}
+
+@media (max-width: 920px) {
+  .home {
+    height: 40vh;
+  }
+  .about .about-img {
+    width: 411px;
+  }
+  .home .img img {
+    top: 98px;
+    height: 401px;
+  }
+  .technologies .card-container {
+    padding: 22px 0px;
+  }
+  .technologies .card-container {
+    gap: 3px;
+  }
+  .technologies .card-box {
+    width: 247px;
+  }
+  .navigation .max-width .menu-btn {
+    display: block;
+  }
+  .navigation .max-width ul {
+    position: fixed;
+    top: 0px;
+    right: -1000%;
+    background: var(--background-color);
+    height: 380px;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    text-align: center;
+    padding-top: 25px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+  }
+  .navigation .max-width ul li {
+    margin: 20px 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .contact .contact-container img {
+    width: 427px;
+  }
+}
+
+@media (max-width: 885px) {
+  .home .home-content {
+    margin-left: 31px;
+  }
+  .home .img img {
+    top: 86px;
+    height: 401px;
+    right: -21px;
+  }
+  .about .about-img {
+    width: 405px;
+  }
+  .about .about-container ul li {
+    font-size: 14px;
+  }
+  .projects .project-container .project-box {
+    width: 262px;
+    height: 246px;
+  }
+  .contact .contact-container img {
+    width: 390px;
+  }
+}
+
+@media (max-width: 829px) {
+  .home .home-content {
+    margin-left: 11px;
+  }
+  .about .about-img {
+    width: 360px;
+  }
+  .projects .project-container .project-box {
+    width: 253px;
+    height: 235px;
+  }
+  .contact .contact-container img {
+    width: 375px;
+  }
+}
+
+@media (max-width: 814px) {
+  .home .home-content {
+    margin-left: 11px;
+  }
+  .home .home-content .text-2 {
+    font-size: 65px;
+  }
+  .about .about-img {
+    width: 380px;
+  }
+  .projects .project-container .project-box {
+    width: 240px;
+    height: 220px;
+  }
+  .contact .contact-container img {
+    width: 365px;
+  }
+}
+
+@media (max-width: 755px) {
+  .about .about-container p {
+    font-size: 15px;
+  }
+  .about .about-img {
+    width: 338px;
+  }
+  .projects .project-container .project-box {
+    width: 226px;
+    height: 216px;
+  }
+  .contact .contact-container img {
+    width: 345px;
+  }
+}
+
+@media (max-width: 747px) {
+  .technologies .card-box {
+    width: 200px;
+  }
+  .projects .project-container .project-box {
+    width: 217px;
+    height: 216px;
+  }
+  .home .home-content .text-2 {
+    font-size: 65px;
+  }
+  .home .home-content .text-3 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 680px) {
+  .projects .project-container .project-box {
+    width: 201px;
+    height: 214px;
+  }
+}
+
+@media (max-width: 637px) {
+  .technologies .card-box {
+    width: 200px;
+  }
+  .technologies .card-box a p {
+    font-size: 14px;
+  }
+  .projects .project-filter li {
+    font-size: 15px;
+  }
+  .projects .project-container .project-box {
+    width: 241px;
+    height: 214px;
+    margin: 10px 19px;
+  }
+}
+
+@media (max-width: 608px) {
+  .technologies .card-box {
+    width: 176px;
+  }
+  .technologies .card-box a p {
+    font-size: 14px;
+  }
+  .projects .project-filter li {
+    margin: 0px 1px;
+    padding: 5px 17px;
+  }
+}
+
+@media (max-width: 534px) {
+  .technologies .card-box {
+    width: 142px;
+  }
+  .technologies .card-box a p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 431px) {
+  .technologies .card-box {
+    width: 181px;
+  }
+  .technologies .card-box a p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 365px) {
+  .technologies .card-box {
+    width: 272px;
+  }
+  .technologies .card-box a p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=responsive-style.css.map */
